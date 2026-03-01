@@ -1,0 +1,48 @@
+* {
+  font-family: sans-serif, arial, helvetica, verdana, noto sans;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.text {
+  gap: 2em;
+  width: 50%;
+}
+
+.inline {
+  display: inline-flex;
+  gap: 2em;
+}
+
+.counter {
+  background-color: lightcyan;
+  min-width: 10em;
+  height: 4em;
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  width: 50%;
+}
+
+footer {
+  color: darkslategrey;
+  font-size: 80%;
+  margin-left: 10px;
+}
